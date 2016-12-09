@@ -1,0 +1,26 @@
+{
+  "name": "tablero",
+  "version": "1.0.0",
+  "description": "A sample application that demonstrates the Node.js container",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "wedeploy": "^1.0.3",
+    "amqp": "0.2.6",
+    "body-parser":"~1.5.2",
+    "express-session":"~1.14.2",
+    "jsonwebtoken":"^5.0.2",
+    "method-override":"~2.1.2",
+    "moment":"~2.12.0",
+    "request" : "^2.67.0",
+    "sequelize":"^3.23.2",
+    "serve-favicon": "~2.3.0",
+    "passport":"~0.3.2",
+    "passport-local":"~1.0.0 ",
+    "passport-local-mongoose":"~4.0.0 "
+  }
+}

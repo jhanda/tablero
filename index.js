@@ -12,6 +12,8 @@ var WeDeploy 		= require('wedeploy').WeDeploy;
 var app 			= express();
 
 app.use(morgan('combined'));
+app.use(bodyParser.json());                                     // parse application/json
+app.use(bodyParser.urlencoded({extended: true}));               // parse application/x-www-form-urlencoded
 
 app.get('/', function (req, res) {
 	res.sendFile(path.join(__dirname + '/public/index.html'));
